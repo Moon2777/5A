@@ -30,7 +30,6 @@ function main(){
   const boxWidth = 0.5;
   const boxHeight = 0.5;
   const boxDepth = 0.5;
-  //const rad = Math.sqrt((boxWidth * boxWidth) + (boxHeight * boxHeight) + (boxDepth * boxDepth));
   const geometry_cube = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
   const geometry_sphere = new THREE.SphereGeometry( 0.5, 16, 16 );
   const geometry_cylinder = new THREE.CylinderGeometry(0.5, 0.5, boxHeight);
