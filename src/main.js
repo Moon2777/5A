@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {OBJLoader} from '../lib/OBJloader.js';
+import {OBJLoader} from 'three_objloader';
 
 main();
 
